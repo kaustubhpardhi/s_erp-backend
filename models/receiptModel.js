@@ -71,4 +71,4 @@ const receiptSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-module.exports = mongoose.model("ReceiptNiraProduction", receiptSchema);
+module.exports = mongoose.model("ReceiptSV", receiptSchema);

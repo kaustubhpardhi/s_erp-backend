@@ -21,6 +21,7 @@ app.use(
 app.use("/user", require("./routes/userRoute"));
 app.use("/receipt", require("./routes/receipt"));
 app.use("/transaction", require("./routes/transaction"));
+app.use("/ornament", require("./routes/ornament"));
 
 //Connect to mongo Db
 const uri = process.env.MONGODB_URI;

@@ -13,7 +13,7 @@ const crypto = require("crypto");
 const moment = require("moment");
 
 const receiptController = {
-  //Cheack Receipt Extistence
+  //Check Receipt Existence
 
   checkReceipt: async (req, res) => {
     try {
